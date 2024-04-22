@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+    <title>grid 과제3</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="item">멋쟁이 사자처럼 프론트엔드 1주차 과제</div>
+        <div class="item">
+            <!--div.item>div.heart*42 Emmet사용함 반복되는 div를 js로도 생성가능  -->
+            
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        <div class="item">
+            <table>
+                <tr>
+                    <th colspan="2">어려웠던 점</th>
+                </tr>
+                <tr>
+                    <td class="t">과제2<br>사진비율</td>
+                    <td>width와 height를 100%로 해두니 사진 비율이 안맞았던 점</td>
+                </tr>
+                <tr>
+                    <td class="t">과제2<br>화면 비율</td>
+                    <td>div item으로 4가지로 구분해둔 화면의 비율을 높이를px로 따로 지정안하고 
+                        flex grow로만 조정했었는데 그상태에서 사진을 100%로 해두니 사진으로 꽉차서 화면비율이 안맞았던 문제 </td>
+                </tr>
+                <tr>
+                    <td class="t">과제3<br>하트만들기</td>
+                    <td>grid를 이용해서 하트를 만들때 js를 이용하지 않으면 42개의 칸을 나누려고 div를 42개 작성해야되는점<br>
+                        더 짧은 방법을 찾아보려고했지만 잘안돼서 Emmet을 사용해서 직접 적는것은 피할 수 있었고 자동으로 42개 div를 생성함
+                    </td>
+                </tr>
+            </table>
+            <ul>
+                <li>css-flex  </li>
+                <li>flex는 한방향 레이아웃 시스템(1차원)<br></li>
+                <li>flex-direction을 통해 메인축의 방향을 결정할수있음(기본row)</li>
+                <li>flex container에 justify-content등을 통해 item들을 정렬할 수 있음</li>
+                <li>flex item에는 flex-basis,grow등을 통해 아이템의 크기 설정 가능</li>
+                <li>css-grid</li> 
+                <li>두 방향 레이아웃 시스템 (2차원)</li>
+                <li>flex와 같이 컨테이너와 아이템에 속성적용</li>
+                <li>grid container는 grid-template-rows,colums를 통해 형태정의 </li>
+                <li>정렬은 flex와 유사하게 가능</li>
+                <li>grid item은 각 셀의 영역을 지정하여 grid라인 번호를통해 row와 colum의 범위 결정가능</li>
+            </ul>
+        </div>
+        <div class="item">이동건: 열심히 참여해서 수료할때 PA 노려보겠습니다!  </div>
+        
+    </div>
+
+  </body>
+</html>
