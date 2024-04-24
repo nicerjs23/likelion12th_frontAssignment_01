@@ -86,7 +86,7 @@ body {
 }
 .item:nth-child(4){
     height: 180px;
-    flex-grow: 4;
+    flex-grow: 3;
     display: flex;
     justify-content: flex-start;
 }
