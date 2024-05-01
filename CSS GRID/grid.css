@@ -59,11 +59,26 @@ body{
     align-items: center;*/
 }
 
+/* div 42개를 다적고 칸수를 적는건 비효율적인 방식인듯 
 .heart:nth-child(2), .heart:nth-child(3), .heart:nth-child(5), .heart:nth-child(6),
 .heart:nth-child(8), .heart:nth-child(11), .heart:nth-child(14),
 .heart:nth-child(15), .heart:nth-child(21),
 .heart:nth-child(23), .heart:nth-child(27),
 .heart:nth-child(31), .heart:nth-child(33), .heart:nth-child(39){
+    background-color: rgb(81, 122, 235);
+}
+*/
+.heart:nth-child(1){ grid-row: 1/2; grid-column: 2/4;}
+.heart:nth-child(2){grid-row: 1/2;grid-column: 5/7;}
+.heart:nth-child(3){grid-row: 2/4;grid-column:1/2;}
+.heart:nth-child(4){grid-row: 2/3;grid-column: 4/5;}
+.heart:nth-child(5){grid-row: 2/4;grid-column: 7/8;}
+.heart:nth-child(6){grid-row: 4/5;grid-column: 2/3;}
+.heart:nth-child(7){grid-row: 4/5;grid-column: 6/7;}
+.heart:nth-child(8){grid-row: 5/6;grid-column: 3/4;}
+.heart:nth-child(9){grid-row: 5/6;grid-column: 5/6;}
+.heart:nth-child(10){grid-row: 6/7;grid-column: 4/5;}
+.heart{
     background-color: rgb(81, 122, 235);
 }
 
